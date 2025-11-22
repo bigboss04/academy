@@ -24,8 +24,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
@@ -35,7 +35,20 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-
-
 -- cau hinh nextfont
+-- font: manrope
+
+<!-- next link -->
+
+-Link
+-href: đường dẫn : có thể truyền vào là chuỗi hoặc 1 object
+
+<Link
+href ={{
+pathname: url,
+query: {{ slug: "bai-1-tong-quan-ve-khoa-hoc
+}}
+/>
+-replace: thay thế đường dẫn không lưu lại lịch sử
+-scroll: mặc định là true là khi nhấn vào link thì sẽ scroll lên trên cùng , nếu không muốn scrool thì thiết lập `scroll={false}`
+-prefetch: giúp
